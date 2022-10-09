@@ -2,8 +2,25 @@
   "name": "my-package-manager",
   "version": "1.0.0",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
+    "@types/find-up": "^4.0.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/log-update": "^3.1.0",
+    "@types/progress": "^2.0.5",
+    "@types/semver": "^7.3.12",
+    "@types/tar": "^6.1.3",
     "ts-loader": "^9.4.1",
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "find-up": "^6.3.0",
+    "fs-extra": "^10.1.0",
+    "log-update": "^5.0.1",
+    "node-fetch": "^3.2.10",
+    "progress": "^2.0.3",
+    "semver": "^7.3.8",
+    "tar": "^6.1.11"
   }
 }
